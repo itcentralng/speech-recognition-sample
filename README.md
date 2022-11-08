@@ -2,8 +2,8 @@
 Speech Recognition With Python
 
 # Steps to start
-Create a virtual environment with this command: `python -m venv venv`<b>
-Activate the virtual environment with this command: `venv\Scripts\activate`<b>
+Create a virtual environment with this command: `python -m venv venv`  
+Activate the virtual environment with this command: `venv\Scripts\activate`  
 Install all requirements with this command: `pip install -r requirements.txt`<b>
 Launch the program with either `speech.py` or `speech.ipynb`<b>
 If with speech.py<b>
