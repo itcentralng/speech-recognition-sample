@@ -8,7 +8,7 @@ Speech Recognition With Python
 * Launch the program with either `speech.py` or `speech.ipynb`  
 * If with speech.py  
 * do the following:  
-  *`python speech.py` and speak to the prompt  
+  * `python speech.py` and speak to the prompt  
 * If with speech.ipynb  
   * open jupyter and run all the cells  
   * when asked to say something, speak your command<b>
