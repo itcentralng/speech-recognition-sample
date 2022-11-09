@@ -5,7 +5,10 @@ import speech_recognition as sr
 voice = sr.Recognizer()
 with sr.Microphone() as source:
     print("Say something!")
-    audio = voice.listen(source)
+    # listen but avoid background noise
+    voice.adjust_for_ambient_noise(source)
+    # listen for 5 seconds
+    audio = voice.listen(source, timeout=5)
 
 try:
     what_you_said = voice.recognize_google(audio)
